@@ -9,6 +9,7 @@ import java.text.SimpleDateFormat;
  * @version 1.0
  * @date 2021/4/21 14:34
  */
+//join当前子线程结束后才启动父线程
 public class Data {
     static SimpleDateFormat sf = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");
     public static void main(String[] args) throws InterruptedException {

@@ -16,9 +16,9 @@ public class ThreadReadAndWrite {
             @Override
             public void run(){
                 System.out.println("开始读取数据库");
-                System.out.println("读取数据库中");
+                System.out.println("读取数据库中...");
                 try {
-                    sleep(1000*10L);
+                    sleep(10_000L);
                 } catch (InterruptedException e) {
                     e.printStackTrace();
                 }
@@ -30,9 +30,9 @@ public class ThreadReadAndWrite {
             @Override
             public void run(){
                 System.out.println("开始写入文件");
-                System.out.println("写入文件中");
+                System.out.println("写入文件中...");
                 try {
-                    sleep(1000*10L);
+                    sleep(20_000L);
                 } catch (InterruptedException e) {
                     e.printStackTrace();
                 }

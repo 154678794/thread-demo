@@ -25,7 +25,7 @@ public class ThreadDemo2 {
         t.start();
         ThreadGroup temp = t.getThreadGroup();
         Thread[] threads = new Thread[temp.activeCount()];
-        temp.enumerate(threads);
+        temp.enumerate(threads);//数据复制
         Arrays.asList(threads).forEach(System.out::println);
     }
 }

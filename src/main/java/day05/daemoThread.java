@@ -24,7 +24,7 @@ public class daemoThread {
             daemoThread.setDaemon(true);
             daemoThread.start();
             try {
-                Thread.sleep(5_000l);
+                Thread.sleep(5_100l);
                 System.out.println("http connect finished");
             } catch (InterruptedException e) {
                 e.printStackTrace();
